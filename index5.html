@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main5.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+                Login
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p>Login</p><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <b>Use a local account to log in</b>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <label for="email" class="float-left mt-2">Email</label>
+                                            <label for="password" class="float-left mt-3">Password</label>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <input type="text" id="email" class=" float-right form-control mt-2" style="width: 400px">
+                                            <input type="password" id="password" class="float-right form-control mt-2" style="width: 400px">
+                                            <input type="checkbox" class="checkbox float-left ml-2 mt-3">
+                                            <p class="float-left ml-1 p">Remember me?</p>
+                                            <button type="button" class="btn btn-light text-center text-dark r float-left">Log in</button>
+                                            <a href="#" class="text-primary float-left ri">Register as a new user</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="line-height"><b>Use another</b></p>
+                                    <p class="line-height"><b class="">service to log in.</b></p>
+                                    <hr>
+                                    <p class="line-height">There are no entered</p>
+                                    <p class="line-height">autoentication services</p>
+                                    <p class="line-height">configured. See this</p>
+                                    <p class="line-height">article for details on</p>
+                                    <p class="line-height">setting up the ASP.NET</p>
+                                    <p class="line-height">logging in this extremal</p>
+                                    <p class="line-height">services.</p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light text-center text-dark" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
